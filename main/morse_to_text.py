@@ -19,7 +19,7 @@ word_pause = dot_len * 7
 
 def dot():
     print('.')
-    #winsound.beep(note,dot_len)                        # LINUX LIMITATION (WINDOWS ONLY)
+    #winsound.Beep(note,dot_len)                        # LINUX LIMITATION (WINDOWS ONLY)
     time.sleep(1)
 
 
@@ -27,7 +27,7 @@ def dot():
 
 def dash():
     print('_')
-    #winsound.beep(note,dash_len)                       # LINUX LIMITATION (WINDOWS ONLY)
+    #winsound.Beep(note,dash_len)                       # LINUX LIMITATION (WINDOWS ONLY)
     time.sleep(1)
 
 
