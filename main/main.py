@@ -757,7 +757,8 @@ while True:
         print("""
                 1) Text  ------> Morse
                 2) Morse ------> Text
-                3) Close the script
+                3) Show Translations
+                4) Close the script
                 """)
 
 
