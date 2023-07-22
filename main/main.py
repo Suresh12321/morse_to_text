@@ -26,7 +26,7 @@ def dot():
 
 
 def dash():
-    print('_')
+    print('-')
     #winsound.beep(note,dash_len)                       # LINUX LIMITATION (WINDOWS ONLY)
     time.sleep(1)
 
@@ -450,28 +450,28 @@ def morse_to_text(morse):
 
 
 
-        if i == '._':
+        if i == '.-':
             print('a')
             text_pause()            
 
         
 
 
-        elif i == '_...':
+        elif i == '-...':
             print('b')
             text_pause()            
 
         
 
 
-        elif i == '_._.':
+        elif i == '-.-.':
             print('c')
             text_pause()            
 
 
 
 
-        elif i == '_..':
+        elif i == '-..':
             print('d')
             text_pause()            
 
@@ -485,14 +485,14 @@ def morse_to_text(morse):
 
 
 
-        elif i == '.._.':
+        elif i == '..-.':
             print('f')
             text_pause()            
 
 
 
 
-        elif i == '__.':
+        elif i == '--.':
             print('g')
             text_pause()            
 
@@ -513,63 +513,63 @@ def morse_to_text(morse):
 
 
 
-        elif i == '.___':
+        elif i == '.---':
             print('j')
             text_pause()            
 
 
 
 
-        elif i == '_._':
+        elif i == '-.-':
             print('k')
             text_pause()            
 
 
 
 
-        elif i == '._..':
+        elif i == '.-..':
             print('l')
             text_pause()            
 
 
 
 
-        elif i == '__':
+        elif i == '--':
             print('m')
             text_pause()            
 
 
 
 
-        elif i == '_.':
+        elif i == '-.':
             print('n')
             text_pause()            
 
 
 
 
-        elif i == '___':
+        elif i == '---':
             print('o')
             text_pause()            
 
 
 
 
-        elif i == '.__.':
+        elif i == '.--.':
             print('p')
             text_pause()            
 
 
 
 
-        elif i == '__._':
+        elif i == '--.-':
             print('q')
             text_pause()            
 
 
 
 
-        elif i == '._.':
+        elif i == '.-.':
             print('r')
             text_pause()            
 
@@ -583,84 +583,84 @@ def morse_to_text(morse):
 
 
 
-        elif i == '_':
+        elif i == '-':
             print('t')
             text_pause()            
 
 
 
 
-        elif i == '.._':
+        elif i == '..-':
             print('u')
             text_pause()            
 
 
 
 
-        elif i == '..._':
+        elif i == '...-':
             print('v')
             text_pause()            
 
 
 
 
-        elif i == '.__':
+        elif i == '.--':
             print('w')
             text_pause()            
 
 
 
 
-        elif i == '_.._':
+        elif i == '-..-':
             print('x')
             text_pause()            
 
 
 
 
-        elif i == '_.__':
+        elif i == '-.--':
             print('y')
             text_pause()            
 
 
 
 
-        elif i == '__..':
+        elif i == '--..':
             print('z')
             word_pause()
 
 
 
 
-        elif i == '_____':
+        elif i == '-----':
             print('0')
             text_pause()            
 
 
 
 
-        elif i == '.____':
+        elif i == '.----':
             print('1')
             text_pause()            
 
 
 
 
-        elif i == '..___':
+        elif i == '..---':
             print('2')
             text_pause()            
 
 
 
 
-        elif i == '...__':
+        elif i == '...--':
             print('3')
             text_pause()            
 
 
 
 
-        elif i == '...._':
+        elif i == '....-':
             print('4')
             text_pause()            
 
@@ -674,28 +674,28 @@ def morse_to_text(morse):
 
 
 
-        elif i == '_....':
+        elif i == '-....':
             print('6')
             text_pause()
 
 
 
 
-        elif i == '__...':
+        elif i == '--...':
             print('7')
             text_pause()        
 
 
 
 
-        elif i == '___..':
+        elif i == '---..':
             print('8')
             text_pause()
 
 
 
 
-        elif i == '____.':
+        elif i == '----.':
             print('9')
             text_pause()
 
@@ -728,6 +728,103 @@ def morse_to_text(morse):
 
 
 
+def translations():
+    print("""
+            |=============================================|
+            |*********************************************|
+            |************AGENT MORSE DICTIONARY***********|
+            |*********************************************|
+            |=============================================|
+          
+
+
+            |==============================|
+            |          ALPHABETS           |
+            |==============================|
+
+        A ----------------------> .-  
+             
+        B ----------------------> -...   
+          
+        C ----------------------> -.-.   
+          
+        D ----------------------> -..
+          
+        E ----------------------> .     
+          
+        F ----------------------> ..-.
+          
+        G ----------------------> --.    
+          
+        H ----------------------> ....
+          
+        I ----------------------> ..   
+          
+        J ----------------------> .---   
+          
+        K ----------------------> -.-    
+          
+        L ----------------------> .-..
+          
+        M ----------------------> --    
+          
+        N ----------------------> -.     
+          
+        O ----------------------> ---    
+          
+        P ----------------------> .--.
+          
+        Q ----------------------> --.-   
+          
+        R ----------------------> .-.    
+          
+        S ----------------------> ...    
+          
+        T ----------------------> -
+          
+        U ----------------------> ..-    
+          
+        V ----------------------> ...-   
+          
+        W ----------------------> .--    
+          
+        X ----------------------> -..-
+          
+        Y ----------------------> -.--   
+          
+        Z ----------------------> --..
+    
+          
+            |==============================|
+            |           NUMBERS            |
+            |==============================|
+
+        0 ----------------------> -----  
+          
+        1 ----------------------> .----  
+          
+        2 ----------------------> ..---  
+          
+        3 ----------------------> ...--
+          
+        4 ----------------------> ....-  
+          
+        5 ----------------------> .....  
+          
+        6 ----------------------> -....  
+          
+        7 ----------------------> --...
+          
+        8 ----------------------> ---..  
+          
+        9 ----------------------> ----.
+          
+            |=============================================|
+            |******************PAGE ENDS******************|
+            |=============================================|
+        """)
+
+
 
 print("""
             =======================================================
@@ -757,7 +854,8 @@ while True:
         print("""
                 1) Text  ------> Morse
                 2) Morse ------> Text
-                3) Close the script
+                3) Show Translations
+                4) Close the script
                 """)
 
 
@@ -865,10 +963,11 @@ while True:
 
 
     elif choice == 3:
+        translations()
+
+
+    elif choice == 4:
         break
-
-
-    
 
 print("""
         =================
