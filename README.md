@@ -8,3 +8,6 @@ Used the following libraries:-
 
 Program is a series of if-else statments for each alphabet and morse tanslations.
 In order to fast things up predefined function were used to mimic 'dot' and 'dash' behaviour
+
+
+"good code"
